@@ -1,14 +1,17 @@
-vim.cmd "colorscheme slate"
+--vim.cmd "colorscheme slate"
 -- [[ opts.lua ]]
 local opt = vim.opt
 opt.colorcolumn = '0'
 opt.number = true
 opt.scrolloff = 4
-opt.signcolumn = "yes"
+--opt.signcolumn = "yes"
+--
 opt.encoding = 'utf8'
 opt.fileencoding = 'utf8'
 opt.syntax = "ON"
---termguicolors = true
+
+termguicolors = true
+
 opt.ignorecase = true
 opt.smartcase = true
 opt.incsearch = true
